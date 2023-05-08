@@ -44,4 +44,13 @@ def createConsents():
     whittle = Consent('whittle', {0:Soft_No, 1:Inferred_Yes}, {0:Soft_No}, {0:Soft_No, 1:Inferred_Yes}, {0:Soft_No, 1:Inferred_Yes}, {0:Soft_No})
     consents['whittle'] = whittle
 
+    #OnePass Instore Example
+    onepass_instore_consent = Consent('onepass_instore_consent', {0:Soft_No}, {0:Soft_No}, {1:Inferred_Yes}, {1:Inferred_Yes}, {0:Soft_No})
+    consents['onepass_instore_consent'] = onepass_instore_consent
+
+    #OnePass Account Link Example
+    onepass_account_link = Consent('onepass_account_link', {1:Inferred_Yes}, {0:Soft_No}, {1:Inferred_Yes}, {1:Inferred_Yes}, {1:Inferred_Yes})
+    consents['onepass_account_link'] = onepass_account_link
+
+    
     return consents

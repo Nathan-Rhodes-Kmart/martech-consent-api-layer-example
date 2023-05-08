@@ -109,11 +109,13 @@ def determineConsent(allConsentObjects, incomingConsentName, incomingConsentValu
 
 
     #TODO: SEND RESULTS TO DATABASE
+    print('--------------------------------------------------------------')
     print(EMConsentChange)
     print(TAConsentChange)
+    print('--------------------------------------------------------------')
 
 def main():
-    simulated_consent_source = 'consent_modal_registered'
+    simulated_consent_source = 'whittle'
 
     #Note: simulated_consent_boolean is only used when a consent source has values of true or false attached to the same consent source.
     #Valid values are: True, False, 1, 0 & (Ignoring case) "True", "False"

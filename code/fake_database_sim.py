@@ -1,7 +1,7 @@
 #TODO: Fake User Consent SetUp
 def readConsentFromDB():      #Mock data
-    pi_em_consent_source = "email_optout"
-    pi_em_consent_state = "Express No"
+    pi_em_consent_source = "whittle"
+    pi_em_consent_state = "Inferred Yes"
     pi_ta_consent_source = "whittle"
     pi_ta_consent_state = "Soft No"
     pi_wp_consent_source = "whittle"
